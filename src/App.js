@@ -1,4 +1,5 @@
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </footer>
       </div>
   );
+  
 }
 
 export default App;
