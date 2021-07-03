@@ -1,14 +1,23 @@
+import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
+import ProductList from "./components/ProductList";
+import Details from "./components/Details";
+import Cart from "./components/Cart";
+import Default from "./components/Default";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>E-commerce Project</h1>
-      <footer> This project was coded by <a href="https://www.blakbdavies.com" target="_blank" rel="noreferrer">Blake Davies</a> and is 
-      <a href="https://github.com/blakebdavies/react-ecomm-project" target="_blank" rel="noreferrer"> open-sourced on Github</a>
-      </footer>
-      </div>
+    <React.Fragment>
+      <Navbar />
+      <ProductList />
+      <Details />
+      <Cart />
+      <Default />
+      <Footer />
+    </React.Fragment>
   );
   
 }
