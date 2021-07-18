@@ -12,7 +12,7 @@ export default class ProductList extends Component {
             <div className="container">
              <Title name="our" title="products" />
 
-                <div classname="row">
+                <div className="row">
                     <ProductConsumer>
                         {(value)=>{
                             return value.products.map(product => {

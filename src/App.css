@@ -1,19 +1,19 @@
 :root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
+  --mainBlue: #262a53;
+  --lightBlue: #448ef6;
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
-  --mainYellow: #ffa400;
+  --mainYellow: #fdb44b;
 }
 
 body {
-  font-family: "Oswald", sans-serif !important;
+  font-family: "Comfortaa", cursive !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
 .text-title {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Righteous", cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
