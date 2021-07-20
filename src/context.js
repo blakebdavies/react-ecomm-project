@@ -12,6 +12,9 @@ class ProductProvider extends Component {
         cart:[],
         modalOpen:false,
         modalProduct:detailProduct,
+        cartSubTotal:0,
+        cartTax:0,
+        cartTotal:0
     };
 
     //lifecyle method in order to get new fresh values rather than just the reference
@@ -30,6 +33,8 @@ class ProductProvider extends Component {
             return {products:tempProducts};
         })
     }
+
+    //relating to the individual products
     getItem= id => {
         const product = this.state.products.find(item => item.id ===id);
         return product;
@@ -55,6 +60,8 @@ class ProductProvider extends Component {
     }, () => {console.log(this.state)}
         );
 };
+
+//functions for modal component
     
 openModal = id => {
     const product = this.getItem(id);
@@ -68,6 +75,23 @@ closeModal = () => {
         return {modalOpen:false}
     })
 }
+
+// methods for cart component, available in the consumer to make it easy to pass the methods
+
+increment =(id) => {
+    console.logt (`this is increment method`);
+}
+decrement =(id) => {
+    console.logt (`this is decrement method`);
+}
+
+removeItem =(id) => {
+    console.log('item removed');
+}
+
+clearCart = () => {
+    console.log('cart was cleared');
+}
     render(){
     return (
         <ProductContext.Provider 
@@ -76,7 +100,11 @@ closeModal = () => {
         handleDetail:this.handleDetail,
         addToCart: this.addToCart,
         openModal:this.openModal,
-        closeModal:this.closeModal
+        closeModal:this.closeModal,
+        increment:this.increment,
+        decrement:this.decrement,
+        removeItem:this.removeItem,
+        clearCart:this.clearCart
         }}
         >
         
