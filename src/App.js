@@ -20,7 +20,9 @@ function App() {
         <Route component={Default}></Route>
        
       </Switch>
+      <div className="mb-4">
       <Footer />
+      </div>
     </React.Fragment>
   );
   
