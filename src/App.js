@@ -7,8 +7,8 @@ import ProductList from "./components/ProductList";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
-import Footer from "./components/Footer";
 import Modal from "./components/Modal";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,10 +21,9 @@ function App() {
         <Route component={Default}></Route>
       </Switch>
       <Modal />
-      <div className="mb-4">
       <Footer />
-      </div>
     </React.Fragment>
+  
   );
   
 }
