@@ -12,6 +12,29 @@ body {
   color: var(--mainDark) !important;
 }
 
+footer {
+  color: var(--mainWhite);
+  background-color: var(--mainBlue);
+  font-family: monospace;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 10px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+footer a {
+  color: var(--lightBlue);
+  text-decoration: none;
+  transition: all 150ms ease;
+}
+
+footer a:hover {
+  color: var(--mainYellow);
+}
+
 .text-title {
   font-family: "Righteous", cursive;
   letter-spacing: 0.3rem;
