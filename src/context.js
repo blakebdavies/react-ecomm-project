@@ -92,8 +92,14 @@ removeItem =(id) => {
 }
 
 clearCart = () => {
-    console.log('cart was cleared');
-}
+    this.setState(()=>{
+        return{cart:[]}
+    }, ()=> {
+        //allows new original fresh copies of all the objects; reset back to default
+        this.setProducts();
+        this.addTotals();
+    })
+};
 
 addTotals =() => {
     let subTotal = 0;
