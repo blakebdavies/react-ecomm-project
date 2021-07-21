@@ -79,7 +79,7 @@ closeModal = () => {
 }
 
 // methods for cart component, available in the consumer to make it easy to pass the methods
-
+//could improve this section by making increment and decrement within one method
 increment = id  => {
  let tempCart = [...this.state.cart];
  const selectedProduct = tempCart.find(item => item.id === id)
@@ -93,9 +93,26 @@ increment = id  => {
  this.setState(() => {return {cart:[...tempCart]}}, () => {this.addTotals()}
  )
 }
-decrement =(id) => {
-    console.logt (`this is decrement method`);
+decrement = id  => {
+ let tempCart = [...this.state.cart];
+ const selectedProduct = tempCart.find(item => item.id === id)
+
+ const index = tempCart.indexOf(selectedProduct);
+ const product = tempCart[index];
+
+ product.count = product.count - 1;
+ 
+ if(product.count === 0){
+     this.removeItem(id);
+ } else {
+     product.total = product.count * product.price;
+     this.setState(() => {return {cart:[...tempCart]}}, () => {this.addTotals()}
+ );
+
+ }
+
 }
+
 
 removeItem = (id) => {
     let tempProducts = [...this.state.products];
