@@ -1,21 +1,21 @@
 :root {
-  --mainBlue: #262a53;
-  --lightBlue: #448ef6;
+  --primary-color: #e60000;
+  --secondary-color: #4a4d4e;
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #fdb44b;
 }
 
 body {
-  font-family: "Comfortaa", cursive !important;
+  font-family: "Open Sans", sans-serif;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
 footer {
-  color: var(--mainWhite);
-  background-color: var(--mainBlue);
-  font-family: monospace;
+  color: var(--secondary-color);
+  background-color: var(--mainWhite);
+  font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-align: center;
   padding: 10px;
@@ -26,27 +26,27 @@ footer {
 }
 
 footer a {
-  color: var(--lightBlue);
+  color: var(--secondary-color);
   text-decoration: none;
   transition: all 150ms ease;
 }
 
 footer a:hover {
-  color: var(--mainYellow);
+  color: var(--primary-color);
 }
 
 .text-title {
-  font-family: "Righteous", cursive;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
 
 .text-blue {
-  color: var(--mainBlue);
+  color: var(--primary-color);
 }
 
 .text-bright {
-  color: var(--lightBlue);
+  color: var(--primary-color);
 }
 
 .btn-black {
