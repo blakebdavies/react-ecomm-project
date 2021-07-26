@@ -40,48 +40,28 @@ export default class Navbar extends Component {
           </ul>
           <ul className="navbar-nav align-items-center">
             <li className="nav-item">
-              <Link to="/" className="ml-auto">
+              <a to="/" className="ml-auto">
                 <ButtonContainer>
                   <span className="mr-2">
                     <i className="fas fa-search"></i>
                   </span>
                 </ButtonContainer>
-              </Link>
-            </li>
-            <li className="nav-item dropdown">
-              <Link
-                to="/"
-                className="nav-link ml-auto"
-                role="button"
-                id="navbarDropdown"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <ButtonContainer>
-                  <span className="mr-2">
-                    <i className="fas fa-user"></i>
-                  </span>
-                </ButtonContainer>
-              </Link>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link class="dropdown-item" href="#">
-                  Login to My Vodafone
-                </Link>
-                <Link className="dropdown-item" href="#">
-                  Upgrade
-                </Link>
-                <div className="dropdown-divider"></div>
-                <Link className="dropdown-item" href="#">
-                  Existing Customer Deals
-                </Link>
-              </div>
+              </a>
             </li>
             <li className="nav-item">
               <Link to="/cart" className="ml-auto">
                 <ButtonContainer>
                   <span className="mr-2">
                     <i className="fas fa-shopping-cart" />
+                  </span>
+                </ButtonContainer>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="ml-auto">
+                <ButtonContainer>
+                  <span className="mr-2">
+                    <i className="fas fa-user"></i>
                   </span>
                 </ButtonContainer>
               </Link>
