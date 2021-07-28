@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
-import { ButtonContainer } from "./Button";
 import { Link } from "react-router-dom";
 
 export default class Modal extends Component {
@@ -22,12 +21,14 @@ export default class Modal extends Component {
                     <div
                       id="modal"
                       className="col-8 mx-auto col-md-6 col lg-4
-                                 text-center text capitalize p-5"
+                                 text-center p-5"
                     >
-                      <h5>item added to the cart</h5>
-                      <img src={img} className="img-fluid" alt="product" />
+                      <h4 className="text-capitalize">
+                        This item was added to your cart!
+                      </h4>
+                      <img src={img} className="img-fluid mb-2" alt="product" />
                       <h5>{title}</h5>
-                      <h5 className="text-muted">price: $ {price}</h5>
+                      <p className="text-muted">Price: ${price}</p>
                       <Link to="/">
                         <button
                           className="btn btn-danger m-2"
