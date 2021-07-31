@@ -7,7 +7,7 @@ import { ButtonContainer } from "./Button";
 export default class Navbar extends Component {
   render() {
     return (
-      <NavWrapper className="navbar navbar-expand-lg navbar-light">
+      <NavWrapper className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <Link to="/">
             <img
@@ -89,19 +89,19 @@ export default class Navbar extends Component {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li className="dropdown-item">
-                    <i class="fas fa-user-circle"></i>
+                    <i className="fas fa-user-circle"></i>
                     <span> Profile</span>
                   </li>
                   <li className="dropdown-item">
-                    <i class="fas fa-box-open"></i>
+                    <i className="fas fa-box-open"></i>
                     <span> Orders</span>
                   </li>
                   <li className="dropdown-item">
-                    <i class="far fa-heart"></i>
+                    <i className="far fa-heart"></i>
                     <span> Favorites</span>
                   </li>
                   <li className="dropdown-item">
-                    <i class="fas fa-sign-out-alt"></i>
+                    <i className="fas fa-sign-out-alt"></i>
                     <span> Logout</span>
                   </li>
                 </ul>
@@ -117,7 +117,7 @@ const NavWrapper = styled.nav`
   background: var(--primary-color);
   } 
   .container {
-      max-width: 80%;
+      max-width: 85%;
   }
   .nav-link {
     color: var(--mainWhite) !important;

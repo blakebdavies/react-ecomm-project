@@ -38,19 +38,19 @@ export default class Details extends Component {
                   className="col-10 mx-auto col-md-6 my-3 
                             text-capitalize"
                 >
-                  <h3>model : {title}</h3>
-                  <h4 className="text-title text-capitalize text-muted">
-                    made by : <span className="text-capitalize">{company}</span>
-                  </h4>
-                  <h5 className="text-main">
+                  <h3>model: {title}</h3>
+                  <p className="text-capitalize text-muted">
+                    made by: <span className="text-uppercase">{company}</span>
+                  </p>
+                  <h4 className="text-main">
                     <strong>
-                      price : <span>$</span>
+                      <span>$</span>
                       {price}
                     </strong>
-                  </h5>
-                  <p className="text-capitalize font-weight-bold mt-3 mb-0">
+                  </h4>
+                  <h5 className="text-capitalize font-weight-bold mt-3 mb-0">
                     some info about the product
-                  </p>
+                  </h5>
                   <p className="text-muted lead">{info}</p>
                   {/* buttons */}
                   <div>
