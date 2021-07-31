@@ -6,6 +6,10 @@
   --mainYellow: #fdb44b;
 }
 
+.logo {
+  filter: drop-shadow(0px 0px 10px rgba(247, 243, 243, 0.2));
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: var(--mainWhite) !important;

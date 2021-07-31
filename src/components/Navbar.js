@@ -13,7 +13,7 @@ export default class Navbar extends Component {
             <img
               src={logo}
               alt="logo"
-              className="navbar-brand"
+              className="logo navbar-brand"
               width="90"
               height="90"
             />
