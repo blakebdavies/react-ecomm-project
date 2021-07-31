@@ -14,7 +14,7 @@ export default class Navbar extends Component {
               src={logo}
               alt="logo"
               className="navbar-brand"
-              width="100"
+              width="90"
               height="90"
             />
           </Link>
