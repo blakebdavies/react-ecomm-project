@@ -26,50 +26,50 @@ export default class Navbar extends Component {
                 <a href="/">Shop</a>
               </li>
               <li className="main-nav_list_item">
-                <a href="#">My Brightspot</a>
+                <a href="/">My Brightspot</a>
                 <ul className="dropdown-list">
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fas fa-file-invoice"></i> Billing and Payments
                     </a>
                   </li>
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fas fa-mobile-alt"></i> My Products
                     </a>
                   </li>
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fab fa-app-store-ios"></i> My Apps
                     </a>
                   </li>
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fas fa-cog"></i> Settings
                     </a>
                   </li>
                 </ul>
               </li>
               <li className="main-nav_list_item">
-                <a href="#">Support</a>
+                <a href="/">Support</a>
                 <ul className="dropdown-list">
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fas fa-truck"></i> Delivery
                     </a>
                   </li>
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fas fa-database"></i> Data Charges
                     </a>
                   </li>
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fas fa-plane"></i> Traveling Abroad
                     </a>
                   </li>
                   <li className="dropdown-list_item">
-                    <a href="#">
+                    <a href="/">
                       <i class="fas fa-users"></i> Our Community
                     </a>
                   </li>
@@ -106,7 +106,7 @@ export default class Navbar extends Component {
                 </a>
               </li>
               <li className="main-nav_user-nav_list_item">
-                <a href="#" className="user-icon ml-auto">
+                <a href="/" className="user-icon ml-auto">
                   <ButtonContainer>
                     <span className="mr-2">
                       <i className="fas fa-user"></i>
@@ -116,13 +116,13 @@ export default class Navbar extends Component {
                 {/* Profile Dropdown*/}
                 <ul className="dropdown-list">
                   <li className="dropdown-list_item">
-                    <a href="#" className="user-nav_dropdown-link">
+                    <a href="/" className="user-nav_dropdown-link">
                       <i className="fas fa-user"></i>
                       <span> Profile</span>
                     </a>
                   </li>
                   <li className="dropdown-list_item">
-                    <a href="#" className="user-nav_dropdown-link">
+                    <a href="/" className="user-nav_dropdown-link">
                       <i className="fas fa-sign-out-alt"></i>
                       <span> Logout</span>
                     </a>
