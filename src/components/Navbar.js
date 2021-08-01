@@ -106,7 +106,7 @@ export default class Navbar extends Component {
                 </a>
               </li>
               <li className="main-nav_user-nav_list_item">
-                <a href="/cart" className="user-icon ml-auto">
+                <a href="#" className="user-icon ml-auto">
                   <ButtonContainer>
                     <span className="mr-2">
                       <i className="fas fa-user"></i>
@@ -145,7 +145,7 @@ const NavWrapper = styled.nav`
   justify-content: space-between;
 }
 .container{
-  max-width: 80%;
+  max-width: 100%;
 }
 .main-nav{
   display: inline-block;
