@@ -30,22 +30,23 @@ export default class Navbar extends Component {
                 <ul className="dropdown-list">
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fas fa-file-invoice"></i> Billing and Payments
+                      <i className="fas fa-file-invoice"></i> Billing and
+                      Payments
                     </a>
                   </li>
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fas fa-mobile-alt"></i> My Products
+                      <i className="fas fa-mobile-alt"></i> My Products
                     </a>
                   </li>
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fab fa-app-store-ios"></i> My Apps
+                      <i className="fab fa-app-store-ios"></i> My Apps
                     </a>
                   </li>
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fas fa-cog"></i> Settings
+                      <i className="fas fa-cog"></i> Settings
                     </a>
                   </li>
                 </ul>
@@ -55,22 +56,22 @@ export default class Navbar extends Component {
                 <ul className="dropdown-list">
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fas fa-truck"></i> Delivery
+                      <i className="fas fa-truck"></i> Delivery
                     </a>
                   </li>
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fas fa-database"></i> Data Charges
+                      <i className="fas fa-database"></i> Data Charges
                     </a>
                   </li>
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fas fa-plane"></i> Traveling Abroad
+                      <i className="fas fa-plane"></i> Traveling Abroad
                     </a>
                   </li>
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i class="fas fa-users"></i> Our Community
+                      <i className="fas fa-users"></i> Our Community
                     </a>
                   </li>
                 </ul>

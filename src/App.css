@@ -80,6 +80,10 @@ footer a:hover {
   color: var(--mainYellow);
 }
 
+.CartTotals {
+  float: right;
+}
+
 @media all and (max-width: 756px) {
   .search {
     display: none;
