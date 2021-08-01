@@ -30,8 +30,7 @@ export default class Navbar extends Component {
                 <ul className="dropdown-list">
                   <li className="dropdown-list_item">
                     <a href="/">
-                      <i className="fas fa-file-invoice"></i> Billing and
-                      Payments
+                      <i className="fas fa-file-invoice"></i> My Payments
                     </a>
                   </li>
                   <li className="dropdown-list_item">
