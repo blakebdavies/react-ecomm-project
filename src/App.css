@@ -22,9 +22,9 @@ footer {
   color: var(--secondary-color);
   background-color: var(--mainWhite);
   font-family: "Open Sans", sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   position: static;
   left: 0;
   bottom: 0;

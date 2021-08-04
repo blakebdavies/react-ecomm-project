@@ -25,7 +25,7 @@ export const CloseIcon = styled(FaTimes)`
 export const Icon = styled.div`
   position: absolute;
   top: 1.2rem;
-  right: 1.5rem;
+  right: 1.8rem;
   background: transparent;
   font-size: 2rem;
   outline: none;
@@ -68,10 +68,11 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
 border-radius: 58px;
-background: transparent;
+background: var(--mainWhite);
 whitespace: nowrap;
 padding: 16px 64px;
-color: var(--mainWhite);
+margin-right: 5px;
+color: var(--primary-color);
 font-size: 16px;
 outline:; none;
 border: none;
@@ -81,7 +82,7 @@ text-decoration: none;
 
 &:hover{
 transition: all 0.2s ease-in-out;
-background: transparent;
-color: var(--secondary-color);
+background: var(--secondary-color);
+color: var(--mainWhite);
 }
 `;

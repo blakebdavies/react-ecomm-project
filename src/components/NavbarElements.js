@@ -98,21 +98,22 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
-  background: transparent;
-  white-space: nowrap;
-  padding: 10px 22px;
-  color: var(--mainWhite);
-  font-size: 1.3rem;
-  outline: none;
+  background: var(--mainWhite);
   border: none;
+  border-radius: 50px;
+  color: var(--primary-color);
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+  margin: 5px;
+  outline: none;
+  padding: 10px 30px;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
+  white-space: nowrap;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: transparent;
-    color: var(--secondary-color);
+    background: var(--secondary-color);
+    color: var(--mainWhite);
   }
 `;

@@ -36,12 +36,12 @@ export default function Navbar({ toggle }) {
           </NavItem>
           <NavBtn>
             <NavBtnLink to="/cart">
-              <i className="fas fa-shopping-cart"></i>
+              <i className="fas fa-shopping-cart"></i> My Cart
             </NavBtnLink>
           </NavBtn>
           <NavBtn>
             <NavBtnLink to="/">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-user"></i> My Account
             </NavBtnLink>
           </NavBtn>
         </NavMenu>
