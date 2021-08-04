@@ -41,12 +41,6 @@ footer a:hover {
   color: var(--primary-color);
 }
 
-.logo {
-  filter: drop-shadow(0px 0px 10px rgba(247, 243, 243, 0.2));
-  margin-left: 2rem;
-  position: relative;
-  top: 2rem;
-}
 .text-title {
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.3rem;
@@ -82,10 +76,4 @@ footer a:hover {
 
 .CartTotals {
   float: right;
-}
-
-@media all and (max-width: 756px) {
-  .search {
-    display: none;
-  }
 }
