@@ -43,7 +43,7 @@ footer a:hover {
 
 .text-title {
   font-family: "Poppins", sans-serif;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
@@ -57,11 +57,11 @@ footer a:hover {
 
 .btn-black {
   background: transparent;
+  border: 0.1rem solid var(--mainDark) !important;
+  border-radius: 1px;
   text-transform: capitalize;
   font-size: 0.8rem !important;
-  color: var(--mainDark);
-  border-radius: 0 !important;
-  border-color: 0.1rem var(--mainDark) !important;
+  color: var(--mainDark) !important;
 }
 
 .btn-black:hover {
@@ -74,6 +74,25 @@ footer a:hover {
   color: var(--mainYellow);
 }
 
-.CartTotals {
-  float: right;
+.clearcart-button {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 987px) {
+  .quantity-buttons,
+  .product-title,
+  .product-image,
+  .product-price,
+  .cart-icon,
+  .item-total {
+    font-size: 1rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-title,
+  .product-price {
+    font-weight: light;
+  }
 }

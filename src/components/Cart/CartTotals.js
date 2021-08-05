@@ -8,10 +8,10 @@ export default function CartTotals({ value, history }) {
     <React.Fragment>
       <div className="container">
         <div className="row">
-          <div className="col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8">
+          <div className="cartTotals-content col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8">
             <Link to="/">
               <button
-                className="btn btn-outline-danger text-capitalize mb-3 px-5"
+                className="clearcart-button btn btn-outline-danger text-capitalize mb-3 px-5"
                 type="button"
                 onClick={() => clearCart()}
               >
