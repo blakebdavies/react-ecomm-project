@@ -153,7 +153,7 @@ export const Searchbar = styled.div`
     padding: 0 0.3rem 0 0.5rem;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1113px) {
     display: none;
   }
 `;
