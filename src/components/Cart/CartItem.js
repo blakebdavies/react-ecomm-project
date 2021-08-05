@@ -15,7 +15,7 @@ export default function CartItem({ item, value }) {
         />
       </div>
       <div className="product-title col-12 mx-auto col-lg-2">
-        <span className="d-lg-none">product:</span> {title}
+        <strong>{title}</strong>
       </div>
       <div className="product-price col-12 mx-auto col-lg-2">
         <span className="d-lg-none">price:</span> ${price}
@@ -34,7 +34,7 @@ export default function CartItem({ item, value }) {
         </div>
       </div>
       {/* */}
-      <div className="col-10 mx-auto col-lg-2">
+      <div className="col-sm-none col-md-10 mx-auto col-lg-2">
         <div className="cart-icon" onClick={() => removeItem(id)}>
           <i className="fas fa-trash"></i>
         </div>

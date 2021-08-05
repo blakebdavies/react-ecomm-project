@@ -61,7 +61,7 @@ export const NavMenu = styled.ul`
   alight-items: center;
   list-style: none;
   text-align: center;
-  margin-top: 1.8rem;
+  margin-top: 1.7rem;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -69,6 +69,9 @@ export const NavMenu = styled.ul`
 `;
 export const NavItem = styled.li`
   height: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -83,14 +86,15 @@ cursor: pointer;
 &:hover{
     color: var(--secondary-color);
 }
-@.active{
-  border-bottom: 3px solid var(--secondary-color);
+&.active{
+  border-bottom: 3px solid var(--mainWhite);
 }
 `;
 
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
+  margin-left: 1rem;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -115,5 +119,41 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     background: var(--secondary-color);
     color: var(--mainWhite);
+  }
+`;
+
+export const Searchbar = styled.div`
+  .search {
+    align-items: center;
+    display: block;
+    flex: 0 0 80%;
+    justify-content: center;
+    position: sticky;
+    opacity: 97%;
+    margin: 1.2rem 2rem 0 2rem;
+  }
+
+  .search_input {
+    background-color: var(--mainWhite);
+    border: none;
+    border-radius: 100px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    margin-right: -3.25rem;
+    padding: 0.5rem 2.5rem;
+    transition: all 0.2s;
+    width: 110%;
+  }
+  .search_button {
+    position: relative;
+    background-color: var(--mainWhite);
+    border: none;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    padding: 0 0.3rem 0 0.5rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;

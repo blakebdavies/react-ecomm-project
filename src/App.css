@@ -4,7 +4,6 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #fdb44b;
-  --primary-shadow: #e6000079;
 }
 
 * {
@@ -91,8 +90,8 @@ footer a:hover {
     align-items: center;
   }
 
-  .product-title,
   .product-price {
+    font-size: 0.9rem;
     font-weight: light;
   }
 }

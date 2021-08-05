@@ -11,8 +11,8 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  Searchbar,
 } from "./NavbarElements";
-//import { ButtonContainer } from "./Button";
 
 export default function Navbar({ toggle }) {
   return (
@@ -24,9 +24,33 @@ export default function Navbar({ toggle }) {
         <MobileIcon onClick={toggle}>
           <FaBars />
         </MobileIcon>
+        <Searchbar>
+          <form action="#" className="search">
+            <input
+              type="text"
+              className="search_input"
+              placeholder="Search.."
+              autoFocus={false}
+            />
+            <button className="search_button">
+              <span className="mr-2">
+                <i className="fas fa-search"></i>
+              </span>
+            </button>
+          </form>
+        </Searchbar>
         <NavMenu>
           <NavItem>
-            <NavLinks to="/">Shop</NavLinks>
+            <NavLinks
+              to="/"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Shop
+            </NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to="/">My Brightspot</NavLinks>
