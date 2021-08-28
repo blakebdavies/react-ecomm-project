@@ -17,29 +17,6 @@ body {
   color: var(--mainDark) !important;
 }
 
-footer {
-  color: var(--secondary-color);
-  background-color: var(--mainWhite);
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.65rem;
-  text-align: center;
-  padding: 5px;
-  position: static;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-footer a {
-  color: var(--secondary-color);
-  text-decoration: none;
-  transition: all 150ms ease;
-}
-
-footer a:hover {
-  color: var(--primary-color);
-}
-
 .text-title {
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.2rem;
