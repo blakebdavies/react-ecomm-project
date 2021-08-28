@@ -32,9 +32,6 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarRoute to="/cart" onClick={toggle}>
             <i className="fas fa-shopping-cart"></i> My Cart
           </SidebarRoute>
-          <SidebarRoute to="/" onClick={toggle}>
-            <i className="fas fa-user"></i> My Profile
-          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

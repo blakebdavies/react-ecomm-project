@@ -16,7 +16,7 @@ export const NavWrapper = styled.nav`
   z-index: 10;
 }
 
-@media screen and (max-width: 960){
+@media screen and (max-width: 960px){
   transition: 0.8s all ease;
 }
 `;
@@ -119,41 +119,5 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     background: var(--secondary-color);
     color: var(--mainWhite);
-  }
-`;
-
-export const Searchbar = styled.div`
-  .search {
-    align-items: center;
-    display: block;
-    flex: 0 0 80%;
-    justify-content: center;
-    position: sticky;
-    opacity: 97%;
-    margin: 1.2rem 2rem 0 2rem;
-  }
-
-  .search_input {
-    background-color: var(--mainWhite);
-    border: none;
-    border-radius: 100px;
-    color: var(--secondary-color);
-    font-size: 1rem;
-    margin-right: -3.25rem;
-    padding: 0.5rem 2.5rem;
-    transition: all 0.2s;
-    width: 110%;
-  }
-  .search_button {
-    position: relative;
-    background-color: var(--mainWhite);
-    border: none;
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-    padding: 0 0.3rem 0 0.5rem;
-  }
-
-  @media screen and (max-width: 1113px) {
-    display: none;
   }
 `;
