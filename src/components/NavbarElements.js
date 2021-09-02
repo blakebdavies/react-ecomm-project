@@ -56,9 +56,9 @@ export const MobileIcon = styled.div`
     color: var(--mainWhite);
   }
 `;
+
 export const NavMenu = styled.ul`
   display: flex;
-  alight-items: center;
   list-style: none;
   text-align: center;
   margin-top: 1.7rem;
@@ -84,6 +84,7 @@ height: 100%
 cursor: pointer;
 
 &:hover{
+    cursor: pointer;
     color: var(--secondary-color);
 }
 &.active{
@@ -95,6 +96,7 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-left: 1rem;
+  cursor: pointer;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -106,7 +108,6 @@ export const NavBtnLink = styled(LinkR)`
   border: none;
   border-radius: 50px;
   color: var(--primary-color);
-  cursor: pointer;
   font-size: 1rem;
   margin: 5px;
   outline: none;
@@ -116,7 +117,7 @@ export const NavBtnLink = styled(LinkR)`
   white-space: nowrap;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 200ms ease-in-out;
     background: var(--secondary-color);
     color: var(--mainWhite);
   }

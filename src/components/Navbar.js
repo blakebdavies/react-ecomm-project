@@ -43,14 +43,19 @@ export default function Navbar({ toggle }) {
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/">My Brightspot</NavLinks>
+            <NavLinks to="/">Our Community</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/">Support</NavLinks>
+            <NavLinks to="/">Mobile Support</NavLinks>
           </NavItem>
           <NavBtn>
+            <NavBtnLink to="/">
+              <i class="fas fa-user"></i> Login
+            </NavBtnLink>
+          </NavBtn>
+          <NavBtn>
             <NavBtnLink to="/cart">
-              <i className="fas fa-shopping-cart"></i> My Cart
+              <i className="fas fa-shopping-cart"></i> Cart
             </NavBtnLink>
           </NavBtn>
         </NavMenu>
